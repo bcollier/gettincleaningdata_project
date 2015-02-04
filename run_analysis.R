@@ -52,3 +52,6 @@ mean_stdonly$YActivityNames <- mapvalues(mean_stdonly$YActivityIndicator, from= 
 
 #write out data file to disk in CSV format, don't include row names
 write.csv(mean_stdonly, "HumanActivityRecon_TidyData.txt", row.names=FALSE)
+
+# optional write out column names for use in writing the codebook
+# write.csv(names(mean_stdonly), "ColumnNames.txt", row.names=FALSE)
