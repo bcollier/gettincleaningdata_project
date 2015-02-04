@@ -3,6 +3,7 @@ This data set originaetes from the following authors:
 ==================================================================
 Human Activity Recognition Using Smartphones Dataset
 Version 1.0
+
 ==================================================================
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
@@ -10,6 +11,7 @@ DITEN - Università degli Studi di Genova.
 Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws
 www.smartlab.ws
+
 ==================================================================
 
 The authors provided the following description of the experiment.
@@ -19,6 +21,7 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. 
 
 For each record it is provided:
+
 ======================================
 
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
@@ -54,6 +57,7 @@ fBodyGyro-XYZ
 fBodyAccMag
 fBodyAccJerkMag
 fBodyGyroMag
+
 ======================================
 
 Use of this dataset in publications must be acknowledged by referencing the following publication [1] 
@@ -64,13 +68,14 @@ Use of this dataset in publications must be acknowledged by referencing the foll
 
 The following are a description of the columns in the dataset "HumanActivityRecon_TidyData.txt" produced by the script run_analysis.R in this same repository. More detailed description is above from the authors. Below is my best interpretation from the authors description.
 
-
-"ParticipantID"  	The ID number of each participant in the study.
-"tBodyAccmeanX" 	Mean of time based measure of body accelaration on X dimension	
-"tBodyAccmeanY"		Mean of time based measure of body accelaration on Y dimension	
-"tBodyAccmeanZ"		Mean of time based measure of body accelaration on Z dimension	
-"tBodyAccstdX"		Standard deviation of time based measure of body accelaration on X dimension
-"tBodyAccstdY"		Standard deviation of time based measure of body accelaration on Y dimension
+Column Name | Description
+---|---
+"ParticipantID"|The ID number of each participant in the study
+"tBodyAccmeanX" |	Mean of time based measure of body accelaration on X dimension	
+"tBodyAccmeanY"	|	Mean of time based measure of body accelaration on Y dimension	
+"tBodyAccmeanZ"	|	Mean of time based measure of body accelaration on Z dimension	
+"tBodyAccstdX"	|	Standard deviation of time based measure of body accelaration on X dimension
+"tBodyAccstdY"	|	Standard deviation of time based measure of body accelaration on Y dimension
 "tBodyAccstdZ"		Standard deviation of time based measure of body accelaration on Z dimension
 "tGravityAccmeanX"	Mean of time based measure of gravity accelaration on X dimension
 "tGravityAccmeanY"	Mean of time based measure of gravity accelaration on Y dimension
