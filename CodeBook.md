@@ -4,15 +4,12 @@ This data set originaetes from the following authors:
 Human Activity Recognition Using Smartphones Dataset
 Version 1.0
 
-==================================================================
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
 DITEN - Università degli Studi di Genova.
 Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws
 www.smartlab.ws
-
-==================================================================
 
 The authors provided the following description of the experiment.
 
@@ -22,15 +19,11 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 For each record it is provided:
 
-======================================
-
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
 - Triaxial Angular velocity from the gyroscope. 
 - A 561-feature vector with time and frequency domain variables. 
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
-
-======================================
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
@@ -58,11 +51,9 @@ fBodyAccMag
 fBodyAccJerkMag
 fBodyGyroMag
 
-======================================
+Use of this dataset in publications must be acknowledged by referencing the following publication
 
-Use of this dataset in publications must be acknowledged by referencing the following publication [1] 
-
-[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
+Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 
 ======================================
 
@@ -76,79 +67,79 @@ Column Name | Description
 "tBodyAccmeanZ"	|	Mean of time based measure of body accelaration on Z dimension	
 "tBodyAccstdX"	|	Standard deviation of time based measure of body accelaration on X dimension
 "tBodyAccstdY"	|	Standard deviation of time based measure of body accelaration on Y dimension
-"tBodyAccstdZ"		Standard deviation of time based measure of body accelaration on Z dimension
-"tGravityAccmeanX"	Mean of time based measure of gravity accelaration on X dimension
-"tGravityAccmeanY"	Mean of time based measure of gravity accelaration on Y dimension
-"tGravityAccmeanZ"	Mean of time based measure of gravity accelaration on Z dimension
-"tGravityAccstdX"	Standard deviation of time based measure of gravity accelaration on X dimension
-"tGravityAccstdY"	Standard deviation of time based measure of gravity accelaration on Y dimension
-"tGravityAccstdZ"	Standard deviation of time based measure of gravity accelaration on Z dimension
-"tBodyAccJerkmeanX"	Mean of time based measure of body accelaration jerk on X dimension
-"tBodyAccJerkmeanY"	Mean of time based measure of body accelaration jerk on Y dimension
-"tBodyAccJerkmeanZ"	Mean of time based measure of body accelaration jerk on Z dimension
-"tBodyAccJerkstdX"	Standard deviation of time based measure of body accelaration jerk on X dimension
-"tBodyAccJerkstdY"	Standard deviation of time based measure of body accelaration jerk on X dimension
-"tBodyAccJerkstdZ"	Standard deviation of time based measure of body accelaration jerk on X dimension
-"tBodyGyromeanX"
-"tBodyGyromeanY"
-"tBodyGyromeanZ"
-"tBodyGyrostdX"
-"tBodyGyrostdY"
-"tBodyGyrostdZ"
-"tBodyGyroJerkmeanX"
-"tBodyGyroJerkmeanY"
-"tBodyGyroJerkmeanZ"
-"tBodyGyroJerkstdX"
-"tBodyGyroJerkstdY"
-"tBodyGyroJerkstdZ"
-"tBodyAccMagmean"
-"tBodyAccMagstd"
-"tGravityAccMagmean"
-"tGravityAccMagstd"
-"tBodyAccJerkMagmean"
-"tBodyAccJerkMagstd"
-"tBodyGyroMagmean"
-"tBodyGyroMagstd"
-"tBodyGyroJerkMagmean"
-"tBodyGyroJerkMagstd"
-"fBodyAccmeanX"
-"fBodyAccmeanY"
-"fBodyAccmeanZ"
-"fBodyAccstdX"
-"fBodyAccstdY"
-"fBodyAccstdZ"
-"fBodyAccmeanFreqX"
-"fBodyAccmeanFreqY"
-"fBodyAccmeanFreqZ"
-"fBodyAccJerkmeanX"
-"fBodyAccJerkmeanY"
-"fBodyAccJerkmeanZ"
-"fBodyAccJerkstdX"
-"fBodyAccJerkstdY"
-"fBodyAccJerkstdZ"
-"fBodyAccJerkmeanFreqX"
-"fBodyAccJerkmeanFreqY"
-"fBodyAccJerkmeanFreqZ"
-"fBodyGyromeanX"
-"fBodyGyromeanY"
-"fBodyGyromeanZ"
-"fBodyGyrostdX"
-"fBodyGyrostdY"
-"fBodyGyrostdZ"
-"fBodyGyromeanFreqX"
-"fBodyGyromeanFreqY"
-"fBodyGyromeanFreqZ"
-"fBodyAccMagmean"
-"fBodyAccMagstd"
-"fBodyAccMagmeanFreq"
-"fBodyBodyAccJerkMagmean"
-"fBodyBodyAccJerkMagstd"
-"fBodyBodyAccJerkMagmeanFreq"
-"fBodyBodyGyroMagmean"
-"fBodyBodyGyroMagstd"
-"fBodyBodyGyroMagmeanFreq"
-"fBodyBodyGyroJerkMagmean"
-"fBodyBodyGyroJerkMagstd"
-"fBodyBodyGyroJerkMagmeanFreq"
-"YActivityIndicator"
-"YActivityNames"
+"tBodyAccstdZ"	|	Standard deviation of time based measure of body accelaration on Z dimension
+"tGravityAccmeanX" |	Mean of time based measure of gravity accelaration on X dimension
+"tGravityAccmeanY" |	Mean of time based measure of gravity accelaration on Y dimension
+"tGravityAccmeanZ" |	Mean of time based measure of gravity accelaration on Z dimension
+"tGravityAccstdX" |	Standard deviation of time based measure of gravity accelaration on X dimension
+"tGravityAccstdY" |	Standard deviation of time based measure of gravity accelaration on Y dimension
+"tGravityAccstdZ" |	Standard deviation of time based measure of gravity accelaration on Z dimension
+"tBodyAccJerkmeanX" |	Mean of time based measure of body accelaration jerk on X dimension
+"tBodyAccJerkmeanY"	| Mean of time based measure of body accelaration jerk on Y dimension
+"tBodyAccJerkmeanZ"	| Mean of time based measure of body accelaration jerk on Z dimension
+"tBodyAccJerkstdX"	| Standard deviation of time based measure of body accelaration jerk on X dimension
+"tBodyAccJerkstdY"	| Standard deviation of time based measure of body accelaration jerk on X dimension
+"tBodyAccJerkstdZ"	| Standard deviation of time based measure of body accelaration jerk on X dimension
+"tBodyGyromeanX"	|	Mean of time based measure of body gyroscope on X dimension
+"tBodyGyromeanY"|	Mean of time based measure of body gyroscope on Y dimension
+"tBodyGyromeanZ"	|	Mean of time based measure of body gyroscope on Z dimension
+"tBodyGyrostdX"	|	Standard deviation of time based measure of body gyroscope on X dimension
+"tBodyGyrostdY"|	Standard deviation of time based measure of body gyroscope on Y dimension
+"tBodyGyrostdZ"|	Standard deviation of time based measure of body gyroscope on Z dimension
+"tBodyGyroJerkmeanX" |	Mean of time based measure of body gyroscope jerk on X dimension
+"tBodyGyroJerkmeanY"	|	Mean of time based measure of body gyroscope jerk on Y dimension
+"tBodyGyroJerkmeanZ"	|	Mean of time based measure of body gyroscope jerk on Z dimension
+"tBodyGyroJerkstdX"|	Standard deviation of time based measure of body gyroscope jerk on X dimension
+"tBodyGyroJerkstdY"|	Standard deviation of time based measure of body gyroscope jerk on Y dimension
+"tBodyGyroJerkstdZ"|	Standard deviation of time based measure of body gyroscope jerk on Z dimension
+"tBodyAccMagmean"	|	Mean of time based measure of body accelaration magnitude
+"tBodyAccMagstd"	|	Standard deviation of time based measure of body accelaration magnitude
+"tGravityAccMagmean"|	Mean of time based measure of gravity accelaration magnitude
+"tGravityAccMagstd"|	Standard deviation of time based measure of gravity accelaration magnitude
+"tBodyAccJerkMagmean" |	Mean of time based measure of body accelaration jerk magnitude
+"tBodyAccJerkMagstd"|	Standard deviation of time based measure of body accelaration jerk magnitude
+"tBodyGyroMagmean" |	Mean of time based measure of body gyroscope magnitude
+"tBodyGyroMagstd"|	Standard deviation of time based measure of body gyroscope magnitude
+"tBodyGyroJerkMagmean"|	Mean of time based measure of body gyroscope jerk magnitude
+"tBodyGyroJerkMagstd"|	Standard deviation of time based measure of body gyroscope jerk magnitude
+"fBodyAccmeanX" | Mean of Fast Fourier Transform of body acceleratometer on X dimensions
+"fBodyAccmeanY" | Mean of Fast Fourier Transform of body acceleratometer on Y dimensions
+"fBodyAccmeanZ"| Mean of Fast Fourier Transform of body acceleratometer on Z dimensions
+"fBodyAccstdX"| Mean of Fast Fourier Transform of body acceleratometer on X dimensions
+"fBodyAccstdY"| STDEV of Fast Fourier Transform of body acceleratometer on Y dimensions
+"fBodyAccstdZ"| STDEV of Fast Fourier Transform of body acceleratometer on Z dimensions
+"fBodyAccmeanFreqX"| Mean of Fast Fourier Transform of body acceleratometer frequency on X dimensions
+"fBodyAccmeanFreqY"| Mean of Fast Fourier Transform of body acceleratometer frequency on Y dimensions
+"fBodyAccmeanFreqZ"| Mean of Fast Fourier Transform of body acceleratometer frequency on Z dimensions
+"fBodyAccJerkmeanX" | Mean of Fast Fourier Transform of body acceleratometer jerk on X dimensions
+"fBodyAccJerkmeanY"| Mean of Fast Fourier Transform of body acceleratometer jerk on Y dimensions
+"fBodyAccJerkmeanZ"| Mean of Fast Fourier Transform of body acceleratometer jerk on Z dimensions
+"fBodyAccJerkstdX"| STDEV of Fast Fourier Transform of body acceleratometer jerk on X dimensions
+"fBodyAccJerkstdY"| STDEV of Fast Fourier Transform of body acceleratometer jerk on Y dimensions
+"fBodyAccJerkstdZ"| STDEV of Fast Fourier Transform of body acceleratometer jerk on Z dimensions
+"fBodyAccJerkmeanFreqX"| Mean of Fast Fourier Transform of body acceleratometer jerk frequency on X dimensions
+"fBodyAccJerkmeanFreqY"| Mean of Fast Fourier Transform of body acceleratometer jerk frequency on Y dimensions
+"fBodyAccJerkmeanFreqZ"| Mean of Fast Fourier Transform of body acceleratometer jerk frequency on Z dimensions
+"fBodyGyromeanX" | Mean of Fast Fourier Transform of body gyroscope on X dimensions
+"fBodyGyromeanY"| Mean of Fast Fourier Transform of body gyroscope on Y dimensions
+"fBodyGyromeanZ"| Mean of Fast Fourier Transform of body gyroscope on Z dimensions
+"fBodyGyrostdX" | STDEV of Fast Fourier Transform of body gyroscope on X dimensions
+"fBodyGyrostdY"| STDEV of Fast Fourier Transform of body gyroscope on Y dimensions
+"fBodyGyrostdZ"| STDEV of Fast Fourier Transform of body gyroscope on Z dimensions
+"fBodyGyromeanFreqX" | Mean of Fast Fourier Transform of body gyroscope frequency on X dimensions
+"fBodyGyromeanFreqY" | Mean of Fast Fourier Transform of body gyroscope frequency on Y dimensions
+"fBodyGyromeanFreqZ" | Mean of Fast Fourier Transform of body gyroscope frequency on Z dimensions
+"fBodyAccMagmean" | Mean of Fast Fourier Transform of body acceleratometer magnitude
+"fBodyAccMagstd" | STDEV of Fast Fourier Transform of body acceleratometer magnitude
+"fBodyAccMagmeanFreq" | Mean of Fast Fourier Transform of body acceleratometer magnitude frequency
+"fBodyBodyAccJerkMagmean"| Mean of Fast Fourier Transform of body acceleratometer jerk magnitude frequency
+"fBodyBodyAccJerkMagstd" | STDEV of Fast Fourier Transform of body acceleratometer magnitude frequency
+"fBodyBodyAccJerkMagmeanFreq"| Mean of Fast Fourier Transform of body acceleratometer magnitude frequency
+"fBodyBodyGyroMagmean"| Mean of Fast Fourier Transform of body gyroscope magnitude frequency
+"fBodyBodyGyroMagstd"| STDEV of Fast Fourier Transform of body gyroscope magnitude 
+"fBodyBodyGyroMagmeanFreq"| Mean of Fast Fourier Transform of body gyroscope magnitude frequency
+"fBodyBodyGyroJerkMagmean" | Mean of Fast Fourier Transform of body gyroscope jerk magnitude 
+"fBodyBodyGyroJerkMagstd"| STDEV of Fast Fourier Transform of body gyroscope jerk magnitude frequency
+"fBodyBodyGyroJerkMagmeanFreq"| Mean of Fast Fourier Transform of body gyroscope jerk magnitude frequency
+"YActivityIndicator" | Numeric indicator of what the participant was doing ("walking", "walking_upstairs", "walking_downlstairs", "sitting", "standing", "laying")
+"YActivityNames"| Description of what the participant was doing ("walking", "walking_upstairs", "walking_downlstairs", "sitting", "standing", "laying")
